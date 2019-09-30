@@ -7,6 +7,10 @@ uid: core/querying/client-eval
 ---
 # Client vs. Server Evaluation
 
+Also see #1783 clarify parts which can be trasnatled to server
+Also see #1777 Memory leak warning
+See #1648 to clarify client eval behavior for 3.0 and how to explicitly switch into each.
+
 Entity Framework Core supports parts of the query being evaluated on the client and parts of it being pushed to the database. It is up to the database provider to determine which parts of the query will be evaluated in the database.
 
 > [!TIP]  

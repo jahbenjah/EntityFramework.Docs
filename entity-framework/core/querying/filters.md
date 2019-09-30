@@ -1,10 +1,14 @@
 ---
 title: Global Query Filters - EF Core
-author: anpete
-ms.date: 11/03/2017
+author: smitpatel
+ms.date: 09/30/2019
+ms.assetid: cfa2439c-a854-4fe8-b736-5e323868230a
 uid: core/querying/filters
 ---
 # Global Query Filters
+
+See issue#1361
+See #733
 
 > [!NOTE]
 > This feature was introduced in EF Core 2.0.

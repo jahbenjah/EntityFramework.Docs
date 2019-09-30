@@ -7,6 +7,9 @@ uid: core/querying/tracking
 ---
 # Tracking vs. No-Tracking Queries
 
+See #1412
+See #788 when to use what
+
 Tracking behavior controls whether or not Entity Framework Core will keep information about an entity instance in its change tracker. If an entity is tracked, any changes detected in the entity will be persisted to the database during `SaveChanges()`. Entity Framework Core will also fix-up navigation properties between entities that are obtained from a tracking query and entities that were previously loaded into the DbContext instance.
 
 > [!TIP]  
